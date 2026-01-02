@@ -1,0 +1,34 @@
+.counter-ele *{
+    text-align: center;
+}
+
+#counter{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    background-image: url('counterimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(9, 40, 61, 0.932);
+    box-shadow: inset 0 0 0 30rem rgba(8, 55, 87, 0.678);
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    z-index:-1;
+    margin-top: 3rem;
+}
+
+.counter-ele{
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+.counter-ele .my-icon{
+    font-size: 3rem;
+    margin-bottom: 1.1rem;
+}
+
+.number-counter{
+    font-size: 1.75rem;
+}

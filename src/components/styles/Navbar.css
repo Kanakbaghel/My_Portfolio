@@ -1,0 +1,84 @@
+.navbar{
+    padding-bottom:0;
+    padding-top: 0;
+    position: sticky;
+    top:0px;
+    background-color: var(--darkblue);
+    z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    font-weight: 200;
+    z-index:5;
+  }
+
+.my-name{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.45rem;
+  color: rgb(204, 245, 255);
+  animation: flicker 1.5s infinite alternate;
+  
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+    0 0 7px rgb(210, 242, 255),
+    0 0 10px rgb(186, 236, 255),
+    0 0 21px rgb(147, 251, 255),
+    0 0 42px rgb(0, 183, 255),
+    0 0 82px rgb(0, 195, 255),
+    0 0 92px rgb(0, 110, 255),
+    0 0 102px rgb(0, 195, 255),
+    0 0 151px rgb(0, 153, 255);
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+.navinvis{
+  top: -50px;
+}
+
+.dis-none{
+  display: none;
+}
+
+.transy{
+  background-color: #1d152cbb;
+}
+
+.nav-effect {
+  display: inline-block;
+  position: relative;
+  color: rgb(163, 226, 255);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav-effect:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(163, 226, 255);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-effect:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.contact-nav{
+  font-weight: 600;
+  color: blueviolet;
+}

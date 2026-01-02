@@ -1,0 +1,37 @@
+:root {
+    --darkblue: #161a2e;
+    --pink1: #f23db3;
+    --pink2:#ef3df2;
+    --lightblue: #55B8E1;
+    --yellow1: #f2cd5c;
+    --orange1: #f27e63;
+  }
+
+*{
+  /* font-family: 'Major Mono Display', monospace;
+  
+  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
+  /* font-weight: 300; */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  
+}
+
+.main-content{
+  position:absolute;
+}
+
+main{
+    background-color: var(--darkblue);
+    color: rgb(189, 189, 189);
+    margin-top: 75vh;
+    position: relative;
+}
+
+.topic-head{
+  font-weight: 600;
+  color: #fcebff;
+  margin-left: 1rem;
+}
