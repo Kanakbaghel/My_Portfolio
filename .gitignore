@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Logs
+*.log
+
+# Data files (large or sensitive)
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# IDE settings
+.vscode/
+.idea/
