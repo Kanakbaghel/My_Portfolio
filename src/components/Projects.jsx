@@ -8,10 +8,10 @@ function Projects() {
   const [showproj, setShowproj] = useState("nothing");
 
   const display_web = () => {
-    setShowproj("display-web");
+    setShowproj("display-Data Science");
   };
   const display_ML = () => {
-    setShowproj("display-ml");
+    setShowproj("display-web");
   };
   const display_others = () => {
     setShowproj("display-others");
@@ -71,7 +71,7 @@ function Projects() {
         <div className={`col-md-4 col-sm-6 web ${showproj}`}>
           <div className="m-4 mycard">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/portfolio.png`}
+              src={`${process.env.PUBLIC_URL}/assets/Portfolio.png`}
               alt="This Portfolio Website"
               height="200vh"
             />

@@ -1,4 +1,4 @@
-import myImg from "../images/meow.jpg";
+import myImg from "../images/mine.jpg";
 import "./styles/About.css";
 import {
   Image,
@@ -43,34 +43,14 @@ function About() {
             <MB2>{aboutPara1}</MB2>
 
             <AboutComponent />
-
-            <MB2>
-              I'm skilled at{" "}
-              <Emb2>
-                {aboutPara3.stack.slice(0, -2).map((s) => {
-                  return s + ", ";
-                })}{" "}
-              </Emb2>
-              and <Emb2>GoLang </Emb2>
-              I've worked on many project in full-stack using{" "}
-              <Emb2>
-                {aboutPara3.stack.slice(-2).map((s) => {
-                  return s + ". ";
-                })}
-              </Emb2>
-              and I am currently exploring <Emb> {aboutPara3.fields[0]} </Emb>
-              I've learnt and created projects in{" "}
-              <Emb> {aboutPara3.fields[1]} </Emb>. I'm an active Open-Source
-              contributor.
-            </MB2>
           </FlexCont>
           <a
             className="button-link cool-btn"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/drive/folders/1ulBx8D5tBBexqPkdpy1xrC1s4ClaKIA5?usp=sharing"
+            href="https://drive.google.com/file/d/1QyRaCjsp1Wo_VYk9EccmCQPH34BoGQY7/view?usp=sharing"
           >
-            Download Resume
+            Here's My Resume <Emb2>↗</Emb2>
           </a>
         </Summary>
       </div>

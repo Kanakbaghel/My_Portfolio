@@ -6,7 +6,7 @@ import { LogoImg, LogoCont } from "./styles/socialLogo";
 import socialLinks from "../config/placeholders/SocialLinks";
 
 function Landing() {
-  const nameObj = { name: " Srishty M ", role: "" };
+  const nameObj = { name: " Kanak Baghel ", role: "A Student" };
   const [count, setCount] = useState(1);
   // const [article, setArticle] = useState("a");
 
@@ -39,16 +39,14 @@ function Landing() {
               <div className="my-roles">
                 {count ? (
                   <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
-                    <span>Web Developer</span>
+                    <span>MCA Student</span>
                     <Typist.Backspace count={14} delay={800} />
-                    <span>ML Engineer</span>
+                    <span>Aspiring Data Scientist</span>
                     <Typist.Backspace count={13} delay={800} />
-                    <span>DevOps Enthusiast</span>
+                    <span>ML Engineering</span>
                     <Typist.Backspace count={24} delay={800} />
-                    <span>OpenSource Contributor</span>
+                    <span>Gen AI</span>
                     <Typist.Backspace count={24} delay={800} />
-                    <span>CyberSec Enthu</span>
-                    <Typist.Backspace count={13} delay={800} />
                   </Typist>
                 ) : (
                   ""

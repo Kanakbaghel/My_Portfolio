@@ -4,44 +4,33 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: "fa-linkedin",
-    url: "https://www.linkedin.com/in/m-srishty",
+    url: "https://www.linkedin.com/in/kanakbaghel",
   },
   {
     name: "Twitter",
     icon: "fa-twitter",
-    url: "https://www.twitter.com/M_Srishty",
+    url: "https://www.twitter.com/kanak_bagh4262",
   },
   {
     name: "Github",
     icon: "fa-github",
-    url: "https://github.com/Srish-ty",
+    url: "https://github.com/Kanakbaghel",
   },
   {
     name: "Email",
     icon: "fas fa-envelope",
-    url: "mailto:srushtimangutte@gmail.com",
+    url: "mailto:kanak.bgl704@gmail.com",
     hide: true,
-  },
-  {
-    name: "wp-blog",
-    icon: "fa-brands fa-wordpress",
-    url: "https://msrishty.wordpress.com",
   },
   {
     name: "medium-blog",
     icon: "fa-brands fa-medium",
-    url: "https://medium.com/@msrishty",
+    url: "https://medium.com/@baghelkanak52",
   },
   {
     name: "Youtube",
     icon: "fa-youtube",
-    url: "https://www.youtube.com/@l4dybu9",
-  },
-  {
-    name: "lfx",
-    icon: "fas fa-laptop",
-    img: lfx_logo,
-    url: "https://openprofile.dev/profile/l4dybu6",
+    url: "https://www.youtube.com/@kanakbgl",
   },
 ];
 
